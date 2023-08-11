@@ -1,6 +1,6 @@
-# Algorithm Foundations
+# Python and Algorithms
 
-- Algorithms Base
+- Python Programming
+- Algorithms
 - Data Structures
-- Complexity
-- Computability
+- SQL, Python Frameworks and other applications as applied to Machine Learning
