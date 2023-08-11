@@ -1,6 +1,6 @@
 # Python and Algorithms
 
 - Python Programming
-- Libraries & Frameworks (relevant to Machine Learning)
+- Libraries & Frameworks
 - Algorithms
 - Data Structures
