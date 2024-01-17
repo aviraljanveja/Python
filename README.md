@@ -2,5 +2,5 @@ These are my notes of the MIT course, 6.0001 : Introduction to Computer Science 
 
 What is Included ? 
 - Chapters as organized by me.
-- In chapter Programs
+- Chapter Programs
 - Solved problem sets
