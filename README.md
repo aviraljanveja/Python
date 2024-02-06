@@ -2,4 +2,4 @@
 
 - Inside each chapter, I have added in-chapter programs so that the learner could see an example in actual Python code. 
 
-- There is also a folder on problem solving which contains solved HackerRank challenges. Learners should try to solve these challenges independently at first. The solutions could be used for reference in case help is needed.
+- There is also a folder on problem solving which contains solved HackerRank challenges. Learners should try and solve these challenges independently at first.
