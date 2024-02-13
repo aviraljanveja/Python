@@ -1,12 +1,12 @@
 # A first simple function example.
 
-def add(a, b):
-    return a + b  # Directly returned a+b instead of defining a new variable
+def even(a):  # Function definition and name.
+    # Function Body.
+    if a % 2 == 0:
+        return print("Even Number")  # Using the return statement...
+    else:
+        return print("Odd Number")  # ...to print out the result.
 
 
-num1 = int(input("Enter first integer : "))
-num2 = int(input("Enter second integer: "))
-
-print("The sum is equal to :5", add(num1, num2))
-# Directly passed the function as an argument in the print statement,
-# instead of defining a new sum variable.
+num1 = int(input("Enter any integer : "))
+even(num1)  # Calling the function with parameter 'num1'.
