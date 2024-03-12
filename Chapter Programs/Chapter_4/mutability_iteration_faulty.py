@@ -11,7 +11,7 @@ list2 = [1, 2, 5, 6]
 remove_duplicates(list1, list2)
 print(list1)  # Output : [2, 3, 4]
 
-# As seen above, the above program does not produce
-# the desired result. The element 2 gets skipped above
-# because the list size is changed midway,
-# while the loop counter continues on to the next index.
+# As seen above, the above program does not produce the desired result.
+# Element 2 gets skipped because the list size is changed midway,
+# meanwhile the loop counter continues on to the next index, 
+# without adjusting for the modified list size.
