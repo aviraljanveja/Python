@@ -2,4 +2,4 @@
 
 - Inside each chapter, I have added Python code snippets and GitHub links so that learners could directly see a real coded example.
 
-- Lastly, It is highly recommended that learners make use of [pythontutor.com](https://pythontutor.com/) which will allow them to visually go through the step-by-step working of any Python program.
+- Lastly, It is highly recommended that learners make use of [pythontutor.com](https://pythontutor.com/) which will allow them to visually go through the internal step-by-step execution of any Python program.
