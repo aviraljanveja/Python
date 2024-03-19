@@ -1,10 +1,10 @@
 # Recursion Example :
 
 def factorial(n):
-    if n == 0:
+    if n == 0:  # The base case
         return 1
     elif n > 0:
-        return n * factorial(n - 1)  # function calling itself
+        return n * factorial(n - 1)  # The recursive step : function calling itself
     else:
         print(" I told you to enter a positive integer :/")
 
