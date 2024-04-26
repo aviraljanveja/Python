@@ -1,4 +1,4 @@
-# Example os using print statement as a debugging tool.
+# Example of using print statement as a debugging tool.
 
 def sum_even(numbers):
     total = 0
