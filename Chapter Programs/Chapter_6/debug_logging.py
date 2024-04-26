@@ -19,7 +19,6 @@ def factorial(n):
     logging.info("Starting to calculate factorial for n = %d", n)
 
     for i in range(1, n + 1):
-        # Multiply the result by the current number to calculate the factorial
         result *= i
         # Log a debug message showing the intermediate value of result after each multiplication
         logging.debug("i = %d, result = %d", i, result)
@@ -27,7 +26,6 @@ def factorial(n):
     # Log an informational message with the final calculated factorial result
     logging.info("Factorial of %d is %d", n, result)
 
-    # Return the calculated factorial result
     return result
 
 
