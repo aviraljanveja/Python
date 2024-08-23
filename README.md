@@ -4,4 +4,4 @@
 
 - Lastly, It is highly recommended that learners make use of [pythontutor.com](https://pythontutor.com/) which would allow them to visually go through the internal execution of Python programs step-by-step.
 
--- Developed by Aviral Janveja for Panini AI initiative. (Copyright 2024)
+-- Developed by Aviral Janveja for the Panini AI initiative. (Copyright 2024)
