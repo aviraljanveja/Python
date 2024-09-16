@@ -16,14 +16,19 @@ class Coordinate:
         return "(" + str(self.x) + "," + str(self.y) + ")"
 
 
-c = Coordinate(3, 4)  # Creating objects of type Coordinate
+# Creating objects of type Coordinate
+c = Coordinate(3, 4)
 origin = Coordinate(0, 0)
 
+# Accessing data-attributes of the object using dot-notation
 print(c.x)  # 3
 print(origin.x)  # 0
 
+# Calling the distance method on Coordinate objects
+# As we have done for lists previously, for example list1.append()
 print(c.distance(origin))  # 5.0
 print(origin.distance(c))  # 5.0
 
+# Printing out the string representation of Coordinate objects as per the __str__ method defined above
 print(c)  # (3,4)
 print(origin)  # (0,0)
