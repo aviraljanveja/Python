@@ -1,6 +1,5 @@
 #  Defining our own class.
 
-
 class Coordinate:
 
     def __init__(self, x, y):  # Constructor method to initialize class objects
