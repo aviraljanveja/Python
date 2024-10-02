@@ -20,5 +20,5 @@ print(leo.get_age())  # Output : 2
 leo.set_age(3)
 print(leo.get_age())  # Output : 3
 
-leo.set_age("old")  # Raises Type Error as required
-print(leo.get_age())
+leo.set_age("old")  
+print(leo.get_age())  # Raises Type Error as required
