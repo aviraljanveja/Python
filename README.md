@@ -4,6 +4,6 @@
 
 - It is highly recommended that learners make use of [pythontutor.com](https://pythontutor.com/) which would allow them to visually go through the internal execution of Python programs step-by-step.
 
-- For a one-on-one doubt solving / mentoring session with myself. You can send a request on 9157790749 via whatsapp or email at aviraljanveja@gmail.com. This course content is free however, the session is paid.
+- For a 1-on-1 guidance / mentoring / doubt-solving session with myself. You can send a request on 9157790749 via Whatsapp or Email at aviraljanveja@gmail.com. More information on : [panini AI website](https://aviraljanveja.my.canva.site/)
 
 -- Developed by Aviral Janveja, as part of the Panini AI initiative. (Copyright 2024)
