@@ -24,27 +24,27 @@ def merge(left, right):
     merged_list = []
 
     # Initialize two index pointers to track positions in the left and right halves
-    left_index = 0
-    right_index = 0
+    li = 0
+    ri = 0
 
     # Step 1: Compare elements from both halves and merge them in sorted order
-    while left_index < len(left) and right_index < len(right):
-        if left[left_index] < right[right_index]:
-            merged_list.append(left[left_index])
-            left_index += 1
+    while li < len(left) and ri < len(right):
+        if left[li] < right[ri]:
+            merged_list.append(left[li])
+            li += 1
         else:
-            merged_list.append(right[right_index])
-            right_index += 1
+            merged_list.append(right[ri])
+            ri += 1
 
     # Step 2: If any elements are left in the left half, append them
-    while left_index < len(left):
-        merged_list.append(left[left_index])
-        left_index += 1
+    while li < len(left):
+        merged_list.append(left[li])
+        li += 1
 
     # Step 3: If any elements are left in the right half, append them
-    while right_index < len(right):
-        merged_list.append(right[right_index])
-        right_index += 1
+    while ri < len(right):
+        merged_list.append(right[ri])
+        ri += 1
 
     # Return the merged list which is now fully sorted
     return merged_list
