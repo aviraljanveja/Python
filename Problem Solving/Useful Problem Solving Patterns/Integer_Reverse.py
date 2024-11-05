@@ -11,7 +11,7 @@ while n > 0:
     # Get the last digit of n using modulus operator
     remainder = n % 10
 
-    # Add the remainder to the current result, moving existing digits to the left by multiplying result by 10
+    # Add remainder to the current result, while moving current digits to the left via multiplication by 10
     result = result * 10 + remainder
 
     # Remove the last digit from n by doing integer division by 10
