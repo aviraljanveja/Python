@@ -1,1 +1,1 @@
-*Select problems from HackerRank Data Structures domain*
+*Select problems from HackerRank Data Structures*

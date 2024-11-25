@@ -1,1 +1,1 @@
-*Select problems from HackerRank Python domain*
+*Select problems from HackerRank Python*

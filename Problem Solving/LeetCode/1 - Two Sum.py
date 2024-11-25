@@ -1,4 +1,4 @@
-# LeetCode 1 - Two Sum
+# LeetCode 1 - Two Sum (https://leetcode.com/problems/two-sum/description/)
 
 def twosum(arr, target):
     # Outer loop to pick the first number

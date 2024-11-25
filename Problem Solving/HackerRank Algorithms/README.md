@@ -1,1 +1,1 @@
-*Select problems from HackerRank Algorithms domain*
+*Select problems from HackerRank Algorithms*
