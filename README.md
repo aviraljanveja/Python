@@ -6,4 +6,4 @@
 
 - It is also highly recommended that learners make use of [pythontutor.com](https://pythontutor.com/python-compiler.html) which would allow them to visually go through what really happens behind the scenes in a Python program.
 
--- Developed by Aviral Janveja, as part of the Panini AI initiative. (Copyright 2024)
+-- Developed by Aviral Janveja, as part of the Paanini AI initiative. (Copyright 2024)
