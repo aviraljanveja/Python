@@ -1,4 +1,4 @@
-# Reversing an integer without converting to string
+# Reversing a positive integer without converting to string
 # For example 12345 is reversed to 54321
 
 # Take an integer input from the user
