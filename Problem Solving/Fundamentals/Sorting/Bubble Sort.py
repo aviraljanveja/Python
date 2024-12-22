@@ -11,7 +11,7 @@ def bubble_sort(arr):
         for j in range(len(arr)-1-i):
 
             # If the current element is greater than the next element,
-            # swap them so that the larger one moves towards the end.
+            # swap them so that the larger one moves (bubbles) towards the end.
             if arr[j] > arr[j+1]:
                 arr[j], arr[j+1] = arr[j+1], arr[j]
 
