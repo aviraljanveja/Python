@@ -1,1 +1,1 @@
-*Select LeetCode Problems*
+*Select problems from LeetCode*
