@@ -25,7 +25,7 @@ def search(nums, target):  # Combination of Two Pointer + Divide & Conquer appro
     return -1
 
 
-# Test Case :
+# Test Case
 nums1 = [-1, 0, 3, 5, 9, 12]
-target1 = -5
-print(search(nums1, target1))
+target1 = 5
+print(search(nums1, target1))  # Output = 3

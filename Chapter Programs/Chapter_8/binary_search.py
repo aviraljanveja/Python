@@ -1,37 +1,31 @@
 # Binary Search on Sorted List via Iteration
 
-def binary_search(arr, target):
-    # Step 1: Initialize the pointers to the first and last index of the list
-    start = 0  # first index of the list
-    end = len(arr) - 1  # last index of the list
+def search(nums, target):  # Combination of Two Pointer + Divide & Conquer approaches
 
-    # Step 2: Continue searching as long as start is less than or equal to end
+    # Two Pointer approach
+    start = 0  # Initialize the "start" pointer at the beginning of the list
+    end = len(nums) - 1  # Initialize the "end" pointer to the last index of the list
+
+    # Loop runs as long as 'start' does not cross 'end'. That is, while there is a valid search space
     while start <= end:
 
-        # Step 3: Find the middle index via integer division
-        mid = (start + end) // 2
+        # Divide & Conquer approach
+        mid = (start + end) // 2  # Calculate the mid-point of the current search space
 
-        # Step 4: Check if the target is equal to the middle index
-        if arr[mid] == target:
-            return f"Element found at index : {mid}"  # If Target found, return the index
+        if target == nums[mid]:  # Check if the target is found at 'mid'
+            return mid  # Return the index where 'target' is found
 
-        # Step 5: If the target is greater than the middle element,
-        # we can ignore the smaller-half knowing that the list is already sorted
-        elif arr[mid] < target:
-            start = mid + 1  # Move start to the right of mid
+        elif target > nums[mid]:  # If the target is greater than nums[mid], only need to search the right half
+            start = mid + 1  # Move 'start' to 'mid + 1' to narrow the search to the right half
 
-        # Step 6: If the target is smaller than the middle element,
-        # ignore the bigger-half
-        else:
-            end = mid - 1  # Move end to the left of mid
+        else:  # If the target is less than nums[mid], only need to search the left half
+            end = mid - 1  # Move 'end' to 'mid - 1' to narrow the search to the left half
 
-    # Step 7: If the loop exits without finding the target element :
-    return "Element not found"
+    # If the loop ends, the target was not found in the list
+    return -1
 
 
-# Driver code
-arr1 = [10, 20, 30, 40, 50, 60, 70, 80, 90]
-target1 = 30
-
-result = binary_search(arr1, target1)
-print(result)  # Output: "Element found at index: 2"
+# Test Case
+nums1 = [-1, 0, 3, 5, 9, 12]
+target1 = 5
+print(search(nums1, target1))  # Output = 3
