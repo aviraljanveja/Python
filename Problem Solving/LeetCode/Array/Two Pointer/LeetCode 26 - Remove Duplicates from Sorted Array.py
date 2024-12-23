@@ -2,14 +2,14 @@
 # (https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/)
 
 def removeDuplicates(nums):
-    k = 1  # Initialize k as 1, which represents the index to write the next unique element.
+    k = 1  # Pointer 1 = k, which represents the index to write the next unique element.
 
-    for i in range(1, len(nums)):  # Iterate through the array starting from the second element (index 1).
+    for i in range(1, len(nums)):  # Pointer 2 = i to Iterate through the sorted array.
         if nums[i] != nums[i-1]:  # Check if the current element is different from the previous one.
-            nums[k] = nums[i]   # When a new element is found, write it to the current 'k' position.
-            k += 1  # Increment k to the next position, where we will write the next unique element.
+            nums[k] = nums[i]   # If yes, then a new element is found. Write it to the current 'k' position.
+            k += 1  # Increment k, where we will write the next unique element.
 
-    return k  # Return k, which represents the number of unique elements in the array.
+    return k  # Return k, which is the number of unique elements in the array.
 
 
 # Test case
