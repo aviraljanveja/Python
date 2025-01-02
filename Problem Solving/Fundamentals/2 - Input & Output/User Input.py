@@ -5,8 +5,8 @@
 name = input("Enter your name : ")
 print(f"Hello {name} !")
 
-# Converting to different types.
-# The input is always read as a string, so you need to convert it to other types as needed.
+# Type Casting
+# The input is always read as string by default, so you need to cast it to other types as needed.
 age = int(input("Enter your age : "))
 print(f"Wow, glad to know you are {age} years old !")
 
