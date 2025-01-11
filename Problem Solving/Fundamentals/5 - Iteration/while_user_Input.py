@@ -1,5 +1,5 @@
 # While loop for taking user-input
-# he while loop is particularly useful for scenarios where
+# The while loop is particularly useful for scenarios where
 # you need to repeatedly take user input until a certain condition is met.
 # Especially when the number of iterations isn't known in advance.
 # This is where it is often preferred over a for loop.
