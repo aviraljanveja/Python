@@ -16,7 +16,7 @@ def repeatElement(nums):
                 min_index = check[nums[i]]  # then update the minimum index
                 answer = nums[i]  # and update the answer
 
-        else:  # Otherwise, store the element and its first index of occurrence as key-value pairs in the dictionary
+        else:  # Otherwise, store the element and its first index of occurrence as a key-value pair in the dictionary
             check[nums[i]] = i
 
     return answer  # Having iterated over the entire list, return the first repeating element or -1 if none found
