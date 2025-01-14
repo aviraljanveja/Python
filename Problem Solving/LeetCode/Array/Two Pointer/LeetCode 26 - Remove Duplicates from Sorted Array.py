@@ -2,7 +2,7 @@
 # (https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/)
 
 def removeDuplicates(nums):
-    i = 1 # pointer 1, to Iterate through the sorted array.
+    i = 1  # pointer 1, to Iterate through the sorted array.
     k = 1  # Pointer 2, which represents the indices to write the unique elements.
 
     while i < len(nums):
