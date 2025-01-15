@@ -10,6 +10,6 @@ print(my_list)  # Output = [1, 2, 3, 4, 5, 6]
 my_list.extend([7, 8, 9])
 print(my_list)  # Output = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
-# insert() : Adds a single element at a specific index, The existing elements are shifted to the right.
+# insert(index, element) : Adds a single element at the specified index, The existing elements are shifted to the right.
 my_list.insert(0, 0)
 print(my_list)  # Output = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
