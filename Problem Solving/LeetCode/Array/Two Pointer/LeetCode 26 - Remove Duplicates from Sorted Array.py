@@ -6,7 +6,7 @@ def removeDuplicates(nums):
     k = 1  # Pointer 2, which represents the indices to write the unique elements.
 
     while i < len(nums):
-        # Comparing adjacent elements, utilizing the fact the array is sorted already.
+        # Comparing adjacent elements, utilizing the fact that the array is sorted already.
         if nums[i] != nums[i-1]:  # Check if the current element is different from the previous one.
             nums[k] = nums[i]  # If yes, then a new element is found. Write it to the 'k' position.
             k += 1  # Increment k, for storing the next unique element.
