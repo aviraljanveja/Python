@@ -2,7 +2,6 @@
 # Problem Link : https://leetcode.com/problems/valid-palindrome/
 
 def isPalindrome(s):
-    # First section : Cleaning the input string.
     val = "0123456789abcdefghijklmnopqrstuvwxyz"  # Define a string containing all valid alphanumeric characters
     s2 = ""  # Initialize an empty string to store the cleaned version of the input
     for char in s.lower():  # Convert the input string to lowercase and iterate through each character
