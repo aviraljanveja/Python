@@ -16,7 +16,7 @@ print(nums)  # Output = [1, 2, 3, 4]
 
 # split() splits the input string into a list of substrings.
 # map(int, ...) converts each substring to an integer.
-# list() constructor converts the man objet back to a list.
+# list() constructor converts the map objet back to a list.
 
 """
 Lazy evaluation : 
