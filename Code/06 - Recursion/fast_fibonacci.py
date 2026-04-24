@@ -1,6 +1,5 @@
-# Optimized implementation of the fibonacci number computing function using memoization.
-# That is, storing already computed values, using a dictionary.
-# In order to prevent wasteful function calls.
+# Optimized implementation of the fibonacci number computing function using memoization alongside recursion.
+# That is, storing already computed values, using a dictionary, in order to prevent wasteful function calls.
 
 fib_cache = {}  # Using dictionary to store already computed values.
 
