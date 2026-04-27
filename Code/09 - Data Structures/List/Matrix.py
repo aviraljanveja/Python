@@ -25,7 +25,7 @@ print() # Linebreak
 
 # Iteration by Index
 for i in range(len(matrix)):  # range(len(matrix)) gives row indices.
-    for j in range(len(matrix[i])):  # range(len(matrix[i])) gives element indices for each row (which is a list).
+    for j in range(len(matrix[i])):  # range(len(matrix[i])) gives element indices for each row.
         print(f"matrix[{i}][{j}] = {matrix[i][j]}")
 
 """
