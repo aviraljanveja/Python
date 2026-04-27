@@ -18,6 +18,7 @@ print(matrix[2][2])  # Output = 9 (Third row, third column)
 for row in matrix:  # First loop iterates over each row (which is a list).
     for value in row:  # Second loop iterates over each element in that row.
         print(value, end=" ")  # Output = 1 2 3 4 5 6 7 8 9
+    print()  # Linebreak after each row
 
 
 print() # Linebreak
