@@ -7,7 +7,7 @@ squares = {1:1, 2:4, 3:27, 4:16, 5:25}
 print(squares[3])  # Output = 27
 
 """
-Basically, you can use the list[] notation when working with dictionaries.
-The only difference is that lists have default indexing starting at 0,
-whereas dictionaries have custom keys, added as key-value pairs.
+You can use indexing[], just like you did with lists.
+The only difference is that lists have default integer indexing starting at 0,
+whereas dictionaries have custom keys.
 """
