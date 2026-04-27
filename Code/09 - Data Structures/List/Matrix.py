@@ -14,6 +14,9 @@ print(matrix[0][1])  # Output = 2 (First row, second column)
 print(matrix[2][2])  # Output = 9 (Third row, third column)
 
 
+print() # Linebreak
+
+
 # Iteration by Value
 for row in matrix:  # First loop iterates over each row (which is a list).
     for value in row:  # Second loop iterates over each element in that row.
