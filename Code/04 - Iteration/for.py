@@ -5,7 +5,7 @@
 text = "aviral"
 
 
-# Iterating directly over values
+# Iterating over values
 for char in text:
     print(char, end = " ")  # Output = a v i r a l
 
@@ -21,15 +21,15 @@ for i in range(len(text)):
 print()  # new line
 
 
-# Reverse iteration over values using slicing. The [::-1] slice creates a reversed copy of the string.
-for char in text[::-1]:
+# Reverse iteration over values.
+for char in reversed(text):
     print(char, end = " ")  # Output = l a r i v a
 
 
 print()  # new line
 
 
-# Reverse iteration using the range function with a negative step. The range(length-1, -1, -1) generates indices from the last index to the first index.
+# Reverse iteration using the range function with a negative step.
 for i in range(len(text)-1, -1, -1):
     print(f"{text[i]}:{i}", end = " ")  # Output = l:5 a:4 r:3 i:2 v:1 a:0
 
