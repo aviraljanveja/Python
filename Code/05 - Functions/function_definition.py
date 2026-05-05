@@ -1,5 +1,5 @@
-# A function is a block of code that performs a specific task. 
-# They are reusuable and hence make your code more organized.
+# A function is a block of reusable code that performs a specific task.
+# Functions provide a way to keep our code organized into reusable and modular components as we scale our programs.
 
 
 # Functions are defined using the def keyword, followed by the function name and parentheses().
