@@ -1,10 +1,10 @@
 # Variables and Data Types.
 # In Python, a variable is a label attached to a value (a number or some text).
-# Variables must start with a letter or an underscore.
-# They can contain letters, numbers and underscores.
+# The equal sign (=) is used to assign values to variables.
 
 
-# Dynamic Typing : Variables in Python are dynamically typed (no need to specify type during declaration)
+# Dynamic Typing : Variables in Python are dynamically typed (no need to specify data-type during declaration)
+# Some examples of data types in Python include:
 num = 10  # Integer
 name = "Avi"  # String
 pi = 3.14  # Float
