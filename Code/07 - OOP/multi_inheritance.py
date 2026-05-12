@@ -1,5 +1,4 @@
-# Inheritance allows us to define a child class that inherits all the data attributes
-# and methods from its parent class. Here is a simple example.
+#  Multiple and multi-level Inheritance in Python.
 
 
 class Animal:
