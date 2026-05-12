@@ -15,5 +15,5 @@ def arbitrary_arguments(*args, **kwargs):
 # Example usage:
 arbitrary_arguments(1, 2, 3, name = "Avi", age = 31, work = "AI Engineer")
 # Output:   
-# Positional arguments (args): (1, 2, 3)
-# Keyword arguments (kwargs): {'name': 'Avi', 'age': 31, 'work': 'AI Engineer'}
+# Positional arguments (args) = (1, 2, 3)
+# Keyword arguments (kwargs) = {'name': 'Avi', 'age': 31, 'work': 'AI Engineer'}
