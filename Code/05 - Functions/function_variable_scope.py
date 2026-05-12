@@ -35,7 +35,10 @@ in the global scope and can be accessed from anywhere within that script or modu
 4. Built-in : Refers to the built-in scope, which contains built-in functions and exceptions provided by Python.
 These are always available and can be accessed from any scope.
 
-So when a variable is referenced in a function, Python first looks for it in the local scope. 
-If it is not found there, it looks in the enclosing scopes (if any), then in the global scope
-and finally in the built-in scope. If the variable is not found in any of these scopes, a NameError is raised.
+So when a variable is referenced in a function : 
+- Python first looks for it in the local scope. 
+- If it is not found there, it looks in the enclosing scopes (if any),
+- then in the global scope
+- and finally in the built-in scope.
+If the variable is not found in any of these scopes, a NameError is raised.
 """
