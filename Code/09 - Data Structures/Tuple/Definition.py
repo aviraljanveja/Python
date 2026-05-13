@@ -1,12 +1,11 @@
 # Tuples in Python :
 # A tuple is an immutable, ordered collection of elements.
-# They are often used when you want to ensure the data cannot be changed,
-# providing a layer of protection for the data integrity.
+# They are often used when you want to provide a layer of protection for data integrity.
 
 """
 Key Characteristics:
 Ordered: Elements have a defined order and can be indexed.
-Immutable: Once created, the elements cannot be changed, added, or removed.
+Immutable: Once created, the elements cannot be changed, added or removed.
 Allows Duplicates: Like lists, tuples can contain duplicate elements.
 Heterogeneous: Can contain elements of different data types.
 """
