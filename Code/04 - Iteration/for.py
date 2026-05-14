@@ -22,14 +22,14 @@ print()  # new line
 
 
 # Reverse iteration over values.
-for char in reversed(text):
+for char in text[::-1]:
     print(char, end = " ")  # Output = l a r i v a
 
 
 print()  # new line
 
 
-# Reverse iteration using the range function with a negative step.
+# Reverse iteration over indices using the range function with a negative step.
 for i in range(len(text)-1, -1, -1):
     print(f"{text[i]}:{i}", end = " ")  # Output = l:5 a:4 r:3 i:2 v:1 a:0
 
@@ -52,3 +52,4 @@ for i in range(10):
     if i == 5:
         continue
     print(i, end = " ")  # Output = 0 1 2 3 4 6 7 8 9
+    
