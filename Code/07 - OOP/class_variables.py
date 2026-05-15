@@ -25,4 +25,4 @@ print(dog4.name)  # Output = Brownie
 
 
 # Accessing class variables
-print(f"I have had {Dog.pet_num} {Dog.species} in life till now.")  # Output = I have had 4 pet dogs in life till now.
+print(f"I have had {Dog.pet_num} {Dog.species} in my life till now.")  # Output = I have had 4 pet dogs in my life till now.
