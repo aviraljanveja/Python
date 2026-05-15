@@ -1,4 +1,4 @@
-#  Multiple and multi-level Inheritance in Python.
+#  multiple and multi-level Inheritance in Python.
 
 
 class Animal:
