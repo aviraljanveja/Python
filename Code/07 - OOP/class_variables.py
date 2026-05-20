@@ -2,12 +2,12 @@
 
 
 class Dog:
-    species = "pet dogs"  # Class variable, shared by all objects
-    pet_num = 0  # Class variable to keep track of the number of dog objects created
+    species = "doggos"  # Class variable, shared by all objects
+    doggo_num = 0  # Class variable to keep track of the number of dog objects created
 
     def __init__(self, name):
         self.name = name  # Object variable, unique to each object
-        Dog.pet_num += 1  # Increment the class variable pet_num each time a new dog object is created
+        Dog.doggo_num += 1  # Increment the class variable doggo_num each time a new dog object is created
 
 
 # Creating Dog objects
@@ -17,12 +17,12 @@ dog3 = Dog("Junior")
 dog4 = Dog("Brownie")
 
 
-# Accessing object variables
+# Accessing class variables
+# It is good practice to access class variables using the class name rather than through an object, to make it clear that they are class variables.
+print(f"I have had {Dog.doggo_num} {Dog.species} in my life till now.")  # Output = I have had 4 doggos in my life till now.
+
+
 print(dog1.name)  # Output = Misty
 print(dog2.name)  # Output = Leo
 print(dog3.name)  # Output = Junior
 print(dog4.name)  # Output = Brownie
-
-
-# Accessing class variables
-print(f"I have had {Dog.pet_num} {Dog.species} in my life till now.")  # Output = I have had 4 pet dogs in my life till now.
