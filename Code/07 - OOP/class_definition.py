@@ -1,5 +1,5 @@
-# Class : a class in python is a blueprint for creating objects. It defines the data attributes(variables) 
-# and methods(functions) that the created objects will have.For example, the inbuilt list class in Python.
+# Class : a class in python is a blueprint for creating objects. It is like creating your own data type. 
+# It defines the variables & methods(functions) that the created objects will work with. For example, the built-in list class.
 
 # Object : an object is an instance of a class. It is a specific realization of the class with its own unique data.
 # For example, when we create a specific list object like list1 = [1, 2, 3]
@@ -17,7 +17,7 @@ class Coordinate:
         y_diff_sq = (self.y - other.y) ** 2
         return (x_diff_sq + y_diff_sq) ** 0.5  # Euclidean distance formula
 
-    def __str__(self):  # Special method for printing string representations of Coordinate objects.
+    def __str__(self):  # Special method for printing Coordinate objects.
         return f"({self.x}, {self.y})"
 
 
@@ -36,6 +36,6 @@ print(c.x)  # 3
 print(o.distance(c))  # 5.0
 
 
-# Printing out the string representation of Coordinate objects as per the __str__ method defined above
+# Printing out the Coordinate objects as per the __str__ method defined above
 print(o)  # (0, 0)
 print(c)  # (3, 4)
