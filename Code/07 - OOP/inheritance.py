@@ -1,5 +1,5 @@
 # Inheritance allows us to define a child class that inherits all the data attributes
-# and methods from its parent class. Here is a simple example.
+# and methods from its parent class. Here is an example : 
 
 
 class Animal:
@@ -11,10 +11,8 @@ class Animal:
 
 
 class Dog(Animal):  # Inherits from Animal
-
-    # You can extend the __init__ method of the parent class to include additional attributes specific to the Dog class using the super() function.
     def __init__(self, name, breed=None):
-        super().__init__(name)  # Inheriting Animal's __init__ method and
+        super().__init__(name)  # Inheriting Animal's __init__ method using super() and
         self.breed = breed  # extending it with the 'breed' attribute, with default value set to None
 
     # Method overriding: we can override the speak method of the parent class to provide a specific implementation for Dog objects.
@@ -23,10 +21,10 @@ class Dog(Animal):  # Inherits from Animal
 
 
 # Creating objects
-an_animal = Animal("Animal")
-dog = Dog("Leo", "German Shepherd")
+animal1 = Animal("Animal")
+dog1 = Dog("Leo", "German Shepherd")
 
 
 # Calling the speak method
-an_animal.speak()  # Output: Animal makes a sound.
-dog.speak()  # Output: Leo, the German Shepherd, barks.
+animal1.speak()  # Output: Animal makes a sound.
+dog1.speak()  # Output: Leo, the German Shepherd, barks.
