@@ -33,10 +33,12 @@ student1 = Student("Ronaldo", 8.5)
 student2 = Student("Kaka", 7.8)
 student3 = Student("Bale", 8.2)
 
+
 # Calling instance method get_info for each student
 print(student1.get_info())  # Output: Ronaldo has a GPA of 8.5
 print(student2.get_info())  # Output: Kaka has a GPA of 7.8
 print(student3.get_info())  # Output: Bale has a GPA of 8.2
+
 
 # Calling class methods to get the total count of students and the average GPA
 print(Student.get_count())
