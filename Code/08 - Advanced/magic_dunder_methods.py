@@ -1,6 +1,6 @@
 # Magic Methods in Python
 # They are also known as 'dunder' methods (double underscore methods) because they are surrounded by double underscores.
-# They are automatically called by Python's built-in functions such as print and len, or by operators such as + and ==.
+# They are automatically called by Python's built-in functions such as print or by operators such as + and ==.
 # They allow us to define or customize the behavior of our objects.
 
 
@@ -33,10 +33,14 @@ book2 = Book("Mahabharata", "Maharishi Ved Vyas")
 book3 = Book("Asthadhyayi", "Maharishi Panini")
 book4 = Book("Ramayana", "Maharishi Valmiki")
 
+
 # Test the magic methods
 print(book1)  # Output: Ramayana by Maharishi Valmiki
 print(book2)  # Output: Mahabharata by Maharishi Ved Vyas
 print(book3)  # Output: Asthadhyayi by Maharishi Panini
+
+print(book1 == book2)  # Output: False
+print(book1 == book4)  # Output: True
 
 print("maha" in book1)  # Output: True
 print("Maharishi" in book2)  # Output: True
@@ -44,6 +48,3 @@ print("Maharishi" in book2)  # Output: True
 print(book1[0])  # Output: Ramayana
 print(book2[1])  # Output: Maharishi Ved Vyas
 print(book3[2])  # Output: Index out of range, use 0 for title and 1 for author. Negative indices also work: -2 for title and -1 for author.
-
-print(book1 == book2)  # Output: False
-print(book1 == book4)  # Output: True
