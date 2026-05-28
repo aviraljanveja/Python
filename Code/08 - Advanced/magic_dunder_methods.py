@@ -25,9 +25,6 @@ class Book:
             return self.author
         else:
             return "Index out of range, use 0 for title and 1 for author. Negative indices also work: -2 for title and -1 for author."
-    
-    def __len__(self):  # This method is called when we use the len() function to get the length of the book's title.
-        return len(self.title)
 
 
 # Create some book objects to test the magic methods
@@ -50,10 +47,3 @@ print(book3[2])  # Output: Index out of range, use 0 for title and 1 for author.
 
 print(book1 == book2)  # Output: False
 print(book1 == book4)  # Output: True
-
-print(len(book1))  # Output: 8
-print(len(book2))  # Output: 11
-print(len(book3))  # Output: 11
-
-print(len(book1[1]))  # Two magic methods can also be combined. 
-# Here we are using the __getitem__ method to get the author of book1 and then using the len() function to get the length of the author's name. Output: 17
