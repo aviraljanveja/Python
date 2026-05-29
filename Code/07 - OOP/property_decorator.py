@@ -2,12 +2,13 @@
 # It allows us to define getters & setters, thereby controlling access & modification of private variables,
 # while still using them like regular variables.
 
+
 class Animal:
     def __init__(self, age):
         self.__age = age  # Private variable age
 
     @property  # Property-getter via @decorator syntax
-    def age(self):  # While using the property function, the method name should always be same as the attribute name : age in this case
+    def age(self):  # While using the property function, the method name should be same as the attribute name : age in this case
         return self.__age
 
     @age.setter  # Property-setter via @decorator syntax
