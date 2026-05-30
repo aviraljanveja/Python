@@ -2,8 +2,8 @@
 # To handle this, you can use the *args & **kwargs syntax in the function definition.
 
 # * is the unpacking operator, and it allows you to pass a variable number of arguments to a function.
-# *args allows you to pass a variable number of arguments to a function. It collects them into a tuple.
-# **kwargs allows you to pass a variable number of keyword arguments to a function. It collects them into a dictionary.
+# *args : allows you to pass a variable number of arguments to a function. It collects them into a tuple.
+# **kwargs : allows you to pass a variable number of keyword arguments to a function. It collects them into a dictionary.
 # You can also use *args and **kwargs together in the same function definition, but *args must come before **kwargs.
 
 
