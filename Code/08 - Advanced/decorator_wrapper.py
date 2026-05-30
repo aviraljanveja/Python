@@ -1,9 +1,9 @@
-# A wrapper function is a function that "wraps" around another function to modify or enhance its behavior.
+# A wrapper is a nested function that "wraps" around another function to modify or enhance its behavior.
 # You can build powerful patterns like logging, authentication and timing using wrappers.
-# The wrapper function calls the original function inside it. Often used as decorators in Python.
+# The wrapper function calls the original function inside it. Often used alongside decorators in Python.
 
 
-# A decorator is a function that takes in another function as argument, nests it inside a wrapper function,
+# A decorator is a function that takes in another function as an argument, nests it inside a wrapper function,
 # and returns the wrapper. Hence extending the functionality of the original function without modifying it.
 def my_decorator(original_function):
 
@@ -24,13 +24,13 @@ def my_decorator(original_function):
 
 
 # Decorating a simple function "greet" to extend its behavior with the my_decorator function defined above.
-# @my_decorator is just elegant and shorter syntax for greet = my_decorator(greet)
+# @my_decorator is just elegant and shorter syntax (syntactic sugar) for "greet = my_decorator(greet)"
 @my_decorator
 def greet(name):
      print(f"Hello {name}")
 
 
-greet("Aviral")  # Calling the decorated function with argument = "Aviral"
+greet("Aviral")  # Calling the decorated function "greet" with argument "Aviral"
 # Output :
 # Before the function runs...
 # Hello Aviral
