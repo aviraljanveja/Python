@@ -1,7 +1,7 @@
 # Encapsulation : Controlling access to class data via private variables and getter/setter methods.
 # Public variable = age (no underscores, accessible from anywhere)
 # Protected variable = _age (single underscore, conventionally private, but still accessible from outside)
-# Private variable = __age (double underscore, changes name internally to _ClassName__age, not directly accessible from outside)
+# Private variable = __age (double underscore, Python changes name internally to _ClassName__age, not directly accessible from outside)
 
 
 class Animal:
