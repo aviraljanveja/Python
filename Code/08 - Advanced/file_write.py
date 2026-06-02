@@ -1,10 +1,8 @@
-# Writing to Files in Python
-
+# Writing to Files in Python (text, JSON, CSV)
 
 import os  # importing the os module to interact with the operating system
 import json  # importing the json module to work with JSON data
 import csv  # importing the csv module to work with CSV files
-
 
 # Writing to a text file
 text_file_path = "C:/Users/HP PC/Desktop/pets.txt"  # specifying the path to the file
