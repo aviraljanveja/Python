@@ -17,7 +17,7 @@ with open(file = text_file_path, mode = 'w') as file:
     # The open() function is used to open a file. It takes two arguments: the file path and the mode in which to open the file.
     # It returns a file object, which is used to perform operations on the file.
     # The mode 'w' stands for write mode, which means that the file will be created if it does not exist, and if it does exist, it will be overwritten.
-    # The as keyword is used to assign the file object to the variable 'file', which can be used to perform operations on the file within the block of code.
+    # The 'as' keyword is used to assign the file object to the variable 'file', which can be used to perform operations on the file within the block of code.
     
     for pet in pets:
         file.write(pet + "\n")  # writing each pet's name to the file
@@ -52,7 +52,7 @@ pets_csv = [  # creating a list of lists to represent the pets data in CSV forma
     ["pet4 ", " brownie"]
 ]
 
-with open(file = csv_file_path, mode = 'w') as csv_file:
+with open(file = csv_file_path, mode = 'w', newline='') as csv_file:
     writer = csv.writer(csv_file)
     for row in pets_csv:
         writer.writerow(row)
