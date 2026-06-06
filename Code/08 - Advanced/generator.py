@@ -1,9 +1,9 @@
-# Generator in Python
+# Generators in Python
 # A generator is defined using a function that contains the "yield" statement instead of return.
 # The yield statement allows us to pause a function, return a value and then resume again.
 # A generator allows you to iterate over a sequence without loading everything in memory at once. (For example, when reading large files)
 # return = returns a value and terminates the function (like pouring a bucket)
-# yield = pause the function, return a value, resume the function. (like using a tap)
+# yield = pauses the function, returns a value, resumes the function. (like using a tap)
 
 
 # For example : 
